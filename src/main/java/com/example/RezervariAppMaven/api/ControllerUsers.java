@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * Clasa Controller imi face legatura intre backend si frontend
- */
+
 
 @RequestMapping("users")
 @RestController

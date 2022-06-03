@@ -25,4 +25,13 @@ public class Users {
     public String getPassword() {
         return password;
     }
+
+    @Override
+    public boolean equals(Object user) {
+        if(((Users)user).getUsername().equals(username))
+            if(((Users)user).getPassword().equals(password))
+                return true;
+
+        return false;
+    }
 }
